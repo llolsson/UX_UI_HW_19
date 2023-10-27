@@ -23,12 +23,12 @@ li a {
  color: #000;
 }
 li a:hover {
-  background-color: #ffe88e;
+  background-color: #ECC30B;
   height: 80px;  
 }
 .bigheader{
   margin: 0px;
-  padding: 150px;
+  padding: 140px;
   background-image: url("../Images/bluegridbackroundimage2.PNG");
 }
 .image2 {
@@ -77,8 +77,8 @@ p {
 }
 .hoverMe {
   grid-area: hover;
-  background-color: rgb(232, 157, 245);
-  color: rgb(0, 0, 0);
+  background-color: #856A5d;
+  color: rgb(255, 255, 255);
   width: 150px;
   text-align: center;
   height: 50px;
@@ -88,16 +88,17 @@ p {
 }
 /* active state */
 .hoverMe:hover {
-  background-color:rgb(184, 134, 80);
+  background-color:rgb(219, 186, 232);
+  color: #000;
 }
 
 .heading {
   background-color: rgba(0,0,0,0.7);
   padding: 15px;
-  height: 25px;
+  height: 50px;
   color: white;
   font-size: 18px;
-  border-bottom: 5px solid #dd86bf;
+  border-bottom: 5px solid #856A5D;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
@@ -178,7 +179,7 @@ img {
   align-content: end;
 }
 .categoryGridArea3 {
-  background-image: url("../Images/Displaying\ Lofi\ Wireframe\ Image.png");
+  background-image: url("../Images/circleofyellowcomputers.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
